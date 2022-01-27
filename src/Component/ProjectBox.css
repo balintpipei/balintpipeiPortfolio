@@ -1,0 +1,87 @@
+.ProjectBox{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(20,20, 20, 0.863);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.test{
+    position: relative;
+    margin: 15px;
+}
+.blur{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(20,20, 20, 0.863);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: filter 1s;
+    filter: blur(10px);
+}
+.details{
+    color:rgb(88, 88, 88)
+}
+
+.test:hover{
+    background-color: rgba(36,36,36,0.863);
+}
+.projectbox-img-box{
+    width: 100%;
+    height: 70%;
+
+}
+.projectbox-img{
+    width: 100%;
+    height: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+.projectbox-details-box{
+    padding: 20px;
+}
+.projectbox-name{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+.projectbox-button-box{
+    display: none;
+    position: absolute;
+    width: 150px;
+    top: 40%;
+    left: 75px;
+}
+.hide{
+    position: absolute;
+    width: 150px;
+    top: 40%;
+    left: 75px;
+}
+.projectbox-button-parent{
+    margin: 20px;
+}
+.projectbox-button{
+    font-size: 1em;
+    border-radius: 7px;
+    color:rgba(216, 196, 20, 0.829);
+    background-color: rgba(36, 36, 36, 0.95);
+    padding: 3px 10px;
+    cursor: pointer;
+    border-style: hidden;
+}
+.projectbox-button:hover{
+    background-color: rgb(10, 10, 10);
+}
+
+
+
+
+@media only screen and (max-width: 350px) {
+
+
+}

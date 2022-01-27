@@ -1,0 +1,113 @@
+.contact{
+    background-color: rgba(0, 0, 0, 0.95);
+    background-image: url(./Images/contact.jpeg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.contact-header{
+    padding: 0.3em;
+    color: white;
+}
+.contact-container{
+    margin: 0 auto;
+    padding-bottom: 5em;
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(15, 15, 15, 0.767);
+}
+.contact-box{
+    min-width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-box, .link-box{
+    width: 300px;
+    height: 400px;
+    margin: 2em;
+}
+
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.text-box input, .text-box textarea{
+    background-color: rgba(20, 20, 20, 0.863);
+    width: 100%;
+    font-size: 1.1em;
+    border-style: hidden;
+    color: white;
+}
+.text-box h6{
+    font-size: 1.1em;
+}
+
+.link-container{
+    height: 100%;
+}
+
+.link-container, .link-flex, .personal-flex{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.link-flex, .personal-flex{
+    flex-direction: column;
+    justify-content: space-around;
+}
+.link-flex{
+    border-right: solid 4px rgba(20, 20, 20, 0.863);
+    padding: 1em;
+}
+.personal-flex{
+    padding: 1em;
+    justify-content: flex-left;
+}
+.personal-flex div{
+    text-align: left;
+}
+.personal-flex div p{
+    color: rgb(43, 43, 43);
+    font-weight: bold;
+    margin-top: 10px;
+}
+.link-box p{
+    color: rgb(43, 43, 43);
+    margin: 10px 0;
+    text-align: left;
+    font-weight: bold;
+    padding: 0 1em;
+}
+.link-box h6{
+    text-align: left;
+    padding: 0 1em;
+}
+.submit{
+    font-size: 1em;
+    border-radius: 7px;
+    color:rgba(216, 196, 20, 0.829);
+    background-color: rgba(36, 36, 36, 0.95);
+    padding: 3px 25px;
+    cursor: pointer;
+    border-style: hidden;
+}
+.submit:hover{
+    background-color: rgb(10, 10, 10);
+}
+
+
+@media only screen and (max-width: 350px) {
+    .personal-flex div p{
+        font-size: 12px;
+    }
+}

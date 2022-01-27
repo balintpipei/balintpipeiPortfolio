@@ -1,0 +1,70 @@
+.about{
+    background: rgba(0, 0, 0, 0.95);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    padding: 5em 0;
+}
+.aboutme-intro{
+    color: rgb(102, 102, 102);
+    margin: 20px;
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+}
+.aboutme-intro a{
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    font-size: 4em;
+    color: white;
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+  
+  h3 {
+    padding-top: 0.25em;
+  }
+  
+  .vertical-timeline-element-content {
+    box-shadow: 0 0.4em 0.6em 0 rgba(0, 0, 0, 0.25),
+      0 1em 1.8em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 1em 3em !important;
+  }
+  .vertical-timeline-element-title{
+      font-size: 1.5em;
+      font-weight: bold;
+      padding: 5px;
+  }
+  
+  .date {
+    color: white;
+    font-size: 1.3em !important;
+    font-weight: 300px;
+  }
+  
+  #description {
+    margin: 1.5em 0 2em 0;
+  }
+  
+  .button {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(73, 73, 73);
+  }
+  .button:hover{
+      background-color: black;
+  }
+  
+  @media only screen and (max-width: 1170px) {
+    .vertical-timeline-element-date {
+      display: block !important;
+      float: none !important;
+      font-weight: 300px;
+      margin-top: 1.5em;
+      color: black;
+    }
+  }
